@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Everyfile</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 13 Jun 2026 07:21:38 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.0.zip" length="7967740" type="application/octet-stream" sparkle:edSignature="XC48Otk6VLe6LEj7KC0/OUmbbwuM/frVezN6W4mp5OjWOkoqaVJMaCVBhe0SKMNT0+uAYg+LUtE8f5QgDLNUAQ=="/>
+        </item>
+    </channel>
+</rss>
