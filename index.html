@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Everyfile — Find any file by name, instantly</title>
-<meta name="description" content="Everyfile finds any file by name, instantly. A fast local index and a global hotkey panel — like Everything, but native to your Mac. One-time purchase, on-device, zero telemetry. macOS 14+.">
-<meta property="og:title" content="Everyfile — Find any file by name, instantly">
-<meta property="og:description" content="Instant file search with a global hotkey. One-time $19.99, on-device, zero telemetry.">
+<title>Everyfile — Find any file on your Mac, instantly</title>
+<meta name="description" content="Everyfile finds any file by name, instantly — a fast local index and a global hotkey panel. Like Everything, but native to your Mac. One-time purchase, on-device, zero telemetry. macOS 14+.">
+<meta property="og:title" content="Everyfile — Find any file on your Mac, instantly">
+<meta property="og:description" content="Instant file search with a global hotkey panel. One-time $19.99, on-device, zero telemetry.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://everyfile.perfectparadox.co.uk/og.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -37,7 +39,7 @@ nav a{color:var(--ink);text-decoration:none;opacity:.85}
 .cta-row{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;align-items:center}
 .btn{font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.18em;font-size:13px;padding:16px 30px;border:1px solid var(--ink);color:var(--ink);background:transparent;text-decoration:none;display:inline-flex;align-items:center;gap:10px;transition:.18s;cursor:pointer}
 .btn:hover{background:var(--ink);color:var(--bg)}
-.btn.primary{background:var(--crimson);border-color:var(--crimson);color:#fff}
+.btn.primary{background:var(--crimson);border-color:var(--crimson);color:#06222a}
 .btn.primary:hover{background:var(--crimson2);border-color:var(--crimson2)}
 .price-tag{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.2em;color:#cfcbc3}
 .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;padding:14px 0;background:rgba(13,13,14,.92)}
@@ -59,6 +61,64 @@ nav a{color:var(--ink);text-decoration:none;opacity:.85}
 footer{padding:50px 56px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:rgba(10,10,11,.95)}
 footer a{color:var(--muted);text-decoration:none}
 @media(max-width:760px){.grid{grid-template-columns:1fr}nav,.hero,.feat,.price,footer{padding-left:24px;padding-right:24px}.rail{display:none}}
+
+.faq{padding:120px 56px;background:rgba(10,10,11,.9)}
+.faq-wrap{max-width:820px;margin:0 auto}
+details.faq-item{border-top:1px solid var(--line)}
+details.faq-item:last-of-type{border-bottom:1px solid var(--line)}
+details.faq-item summary{list-style:none;cursor:pointer;padding:24px 0;font-family:'Anton',sans-serif;text-transform:uppercase;font-size:22px;line-height:1.1;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:20px}
+details.faq-item summary::-webkit-details-marker{display:none}
+details.faq-item summary::after{content:'+';color:var(--crimson2);font-family:'JetBrains Mono',monospace;font-size:26px;flex-shrink:0}
+details.faq-item[open] summary::after{content:'\2212'}
+details.faq-item p{padding:0 0 26px;margin:0;color:#cbc7bf;font-size:16px;line-height:1.6;max-width:680px}
+
+/* sticky buy bar */
+#stickybuy{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 56px;background:rgba(10,10,11,.92);border-top:1px solid var(--line);backdrop-filter:blur(8px);transform:translateY(110%);transition:transform .3s ease}
+#stickybuy.show{transform:translateY(0)}
+#stickybuy .sb-l{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+#stickybuy .sb-l b{color:var(--crimson2)}
+@media(max-width:760px){#stickybuy{padding:12px 18px}#stickybuy .sb-l span{display:none}}
+/* how it works */
+.how{padding:120px 56px;background:rgba(10,10,11,.82)}
+.how-wrap{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.step{background:rgba(10,10,11,.7);padding:44px 36px}
+.step .sn{font-family:'Anton',sans-serif;font-size:64px;line-height:1;color:var(--crimson2)}
+.step h4{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:26px;margin:14px 0 10px}
+.step p{color:#cbc7bf;font-size:15px;line-height:1.55}
+/* compare */
+.cmp{padding:120px 56px;background:rgba(10,10,11,.9)}
+.cmp-wrap{max-width:960px;margin:0 auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:15px}
+.cmp th,.cmp td{padding:16px 14px;border-bottom:1px solid var(--line);text-align:left}
+.cmp th{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.cmp th.us,.cmp td.us{background:rgba(34,211,238,.06)}
+.cmp td.us{color:var(--crimson2);font-weight:600}
+.cmp .yes{color:var(--crimson2)}.cmp .no{color:#6e6c69}
+.cmp td:first-child{color:#cbc7bf}
+@media(max-width:760px){.how-wrap{grid-template-columns:1fr}.cmp{padding:80px 18px}}
+/* mini-demos in feature cells */
+.demo{height:96px;margin-bottom:22px;border:1px solid var(--line);border-radius:8px;background:#0c0c0d;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.d-row{display:flex;align-items:center;gap:10px;width:84%}
+.d-ico{width:26px;height:26px;border-radius:6px;flex-shrink:0}
+.d-name{font-size:13px;color:#e9e9ea;flex:1}
+.d-bar{height:5px;border-radius:3px;background:rgba(255,255,255,.12);flex:1;overflow:hidden}
+.d-bar i{display:block;height:100%;width:0;background:var(--crimson2);animation:fill 3s ease-in-out infinite}
+@keyframes fill{0%{width:0}55%{width:100%}100%{width:100%}}
+.d-chk{color:var(--crimson2);font-size:16px;opacity:0;animation:pop 3s ease-in-out infinite}
+@keyframes pop{0%,55%{opacity:0;transform:scale(.6)}65%,100%{opacity:1;transform:scale(1)}}
+.d-menubar{position:absolute;top:0;left:0;right:0;height:22px;background:#1c1c1e;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:flex-end;padding:0 10px;gap:8px}
+.d-badge{font-family:'JetBrains Mono',monospace;font-size:10px;color:#06222a;background:var(--crimson2);border-radius:8px;padding:1px 6px;animation:blink 2.5s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:.4}50%{opacity:1}}
+.d-shield{font-size:30px;animation:glow 3s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+.d-tag{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-left:10px}
+/* typing caret + result rows for instant-search demo */
+.d-caret{display:inline-block;width:1px;height:14px;background:var(--crimson2);margin-left:1px;animation:caret 1s step-end infinite;vertical-align:middle}
+@keyframes caret{0%,100%{opacity:1}50%{opacity:0}}
+.d-res{font-family:-apple-system,system-ui,monospace;font-size:11px;color:#cbc7bf;opacity:0;animation:resin 3s ease-in-out infinite}
+.d-res:nth-child(2){animation-delay:.15s}.d-res:nth-child(3){animation-delay:.3s}
+@keyframes resin{0%,40%{opacity:0;transform:translateY(4px)}55%,100%{opacity:1;transform:translateY(0)}}
+.d-kbd{font-family:'JetBrains Mono',monospace;font-size:11px;color:#06222a;background:var(--crimson2);border-radius:5px;padding:3px 8px}
 </style>
 </head>
 <body>
@@ -75,6 +135,7 @@ footer a{color:var(--muted);text-decoration:none}
   <div class="links"><a href="#features">Features</a><a href="#buy">Buy</a><a href="/legal/privacy.html">Privacy</a></div>
 </nav>
 
+<div id="stickybuy"><div class="sb-l"><b>Everyfile</b> <span>&mdash; find any file, instantly</span></div><button class="btn primary" onclick="openCheckout()" style="padding:12px 26px">Buy &middot; $19.99</button></div>
 <div class="page">
 <section class="hero">
   <div class="veil"></div>
@@ -90,20 +151,66 @@ footer a{color:var(--muted);text-decoration:none}
   </div>
 </section>
 
-<div class="marquee"><div>TYPE AND IT'S THERE&nbsp;&nbsp;·&nbsp;&nbsp;<b>⌘⇧SPACE FROM ANYWHERE</b>&nbsp;&nbsp;·&nbsp;&nbsp;INDEXES ICLOUD&nbsp;&nbsp;·&nbsp;&nbsp;<b>ON-DEVICE</b>&nbsp;&nbsp;·&nbsp;&nbsp;TYPE AND IT'S THERE&nbsp;&nbsp;·&nbsp;&nbsp;<b>⌘⇧SPACE FROM ANYWHERE</b>&nbsp;&nbsp;·&nbsp;&nbsp;INDEXES ICLOUD&nbsp;&nbsp;·&nbsp;&nbsp;<b>ON-DEVICE</b>&nbsp;&nbsp;·&nbsp;&nbsp;</div></div>
+<div class="marquee"><div>INSTANT FILE SEARCH&nbsp;&nbsp;·&nbsp;&nbsp;<b>⌘⇧SPACE PANEL</b>&nbsp;&nbsp;·&nbsp;&nbsp;OWN INDEX&nbsp;&nbsp;·&nbsp;&nbsp;<b>ZERO TELEMETRY</b>&nbsp;&nbsp;·&nbsp;&nbsp;INDEXES iCLOUD DRIVE&nbsp;&nbsp;·&nbsp;&nbsp;<b>ONE-TIME PURCHASE</b>&nbsp;&nbsp;·&nbsp;&nbsp;INSTANT FILE SEARCH&nbsp;&nbsp;·&nbsp;&nbsp;<b>⌘⇧SPACE PANEL</b>&nbsp;&nbsp;·&nbsp;&nbsp;OWN INDEX&nbsp;&nbsp;·&nbsp;&nbsp;<b>ZERO TELEMETRY</b>&nbsp;&nbsp;·&nbsp;&nbsp;INDEXES iCLOUD DRIVE&nbsp;&nbsp;·&nbsp;&nbsp;<b>ONE-TIME PURCHASE</b>&nbsp;&nbsp;·&nbsp;&nbsp;</div></div>
 
-<section class="feat" id="features">
-  <div class="feat-inner">
-    <div class="sec-label">// What it does</div>
-    <div class="grid">
-      <div class="cell"><div class="n">01</div><div><h3>Type. There<br>it is.</h3><p>A live index returns matches as you type — no spinning, no waiting for Spotlight to think.</p></div></div>
-      <div class="cell"><div class="n">02</div><div><h3>⌘⇧Space<br>from anywhere</h3><p>Summon the search panel over any app, hit enter, open the file. Out of your way instantly.</p></div></div>
-      <div class="cell"><div class="n">03</div><div><h3>Indexes iCloud<br>Drive too</h3><p>Most tools skip it. Everyfile indexes your iCloud Drive so nothing hides.</p></div></div>
-      <div class="cell"><div class="n">04</div><div><h3>On-device,<br>private</h3><p>The index lives on your Mac. No cloud, no telemetry, one-time purchase.</p></div></div>
+
+<section class="how"><div style="max-width:1100px;margin:0 auto"><div class="sec-label">// How it works</div></div><div class="how-wrap">
+<div class="step"><div class="sn">1</div><h4>Builds a fast<br>local index</h4><p>On first launch Everyfile scans your drive and builds its own index of every file name — hundreds of thousands of files in seconds.</p></div>
+<div class="step"><div class="sn">2</div><h4>Hit ⌘⇧Space<br>anywhere</h4><p>A Spotlight-style panel drops down over whatever you're doing. No app to switch to, no window to find.</p></div>
+<div class="step"><div class="sn">3</div><h4>Type, see<br>matches, open</h4><p>Results appear instantly as you type. Hit return to open, or reveal in Finder. Done.</p></div>
+</div></section>
+<section class="appshow" style="padding:120px 56px;background:rgba(10,10,11,.82)">
+  <div style="max-width:680px;margin:0 auto">
+    <div class="sec-label">// See it work</div>
+    <div style="background:#1c1c1e;border:0.5px solid rgba(255,255,255,.12);border-radius:14px;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.7);font-family:-apple-system,system-ui,sans-serif">
+      <div style="display:flex;align-items:center;gap:12px;padding:18px 20px;border-bottom:0.5px solid rgba(255,255,255,.08)">
+        <span style="font-size:20px;color:#67E8F9">⌕</span>
+        <span style="flex:1;font-size:22px;color:#f4f1ea;font-weight:400">report<span class="d-caret"></span></span>
+        <span style="font-size:11px;color:#6e6c69;font-family:'JetBrains Mono',monospace">809,043 files indexed</span>
+      </div>
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;padding:13px 20px;background:rgba(34,211,238,.07);border-bottom:0.5px solid rgba(255,255,255,.05)">
+          <div style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#E2433B,#FF7262);display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff;font-weight:700">PDF</div>
+          <div style="flex:1"><div style="font-size:14px;color:#f4f1ea">Q3-report.pdf</div><div style="font-size:12px;color:#8c8a86">~/Documents/Finance/2026</div></div>
+          <span class="d-kbd">↵ to open</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:13px 20px;border-bottom:0.5px solid rgba(255,255,255,.05)">
+          <div style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#5B5B5F,#2a2a2c);display:flex;align-items:center;justify-content:center;font-size:11px;color:#cbc7bf;font-weight:700">MD</div>
+          <div style="flex:1"><div style="font-size:14px;color:#f4f1ea">report-draft.md</div><div style="font-size:12px;color:#8c8a86">~/Desktop</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:13px 20px;border-bottom:0.5px solid rgba(255,255,255,.05)">
+          <div style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#1D8348,#27AE60);display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff;font-weight:700">XLS</div>
+          <div style="flex:1"><div style="font-size:14px;color:#f4f1ea">reportes/2026.xlsx</div><div style="font-size:12px;color:#8c8a86">~/iCloud Drive/Trabajo</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:13px 20px;opacity:.7">
+          <div style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#5B5B5F,#2a2a2c);display:flex;align-items:center;justify-content:center;font-size:11px;color:#cbc7bf;font-weight:700">TXT</div>
+          <div style="flex:1"><div style="font-size:14px;color:#f4f1ea">monthly-report-notes.txt</div><div style="font-size:12px;color:#8c8a86">~/Documents</div></div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:#161617;border-top:0.5px solid rgba(255,255,255,.07);font-size:11px;color:#6e6c69">
+        <span>Results in 0.3 ms</span><span>On-device &middot; No telemetry</span>
+      </div>
     </div>
   </div>
 </section>
 
+<section class="feat" id="features"><div class="feat-inner"><div class="sec-label">// What it does</div><div class="grid">
+<div class="cell"><div class="demo"><div style="width:84%"><div style="font-family:-apple-system,system-ui,sans-serif;font-size:13px;color:#e9e9ea;margin-bottom:8px">repo<span class="d-caret"></span></div><div class="d-res" style="display:block;margin-bottom:3px">report.pdf · ~/Documents</div><div class="d-res" style="display:block">reportes-2026.xlsx · ~/iCloud</div></div></div><div class="n">01</div><div><h3>Instant<br>as you type</h3><p>Results update with every keystroke from Everyfile's own index — p95 0.3 ms across 800K+ files. No spinner, no wait.</p></div></div>
+<div class="cell"><div class="demo"><span class="d-kbd" style="font-size:13px;padding:6px 12px">⌘ ⇧ Space</span></div><div class="n">02</div><div><h3>Global<br>hotkey panel</h3><p>Press ⌘⇧Space from any app and a Spotlight-style panel drops down. Search, open, dismiss — without leaving what you were doing.</p></div></div>
+<div class="cell"><div class="demo"><div class="d-row"><span class="d-ico" style="background:linear-gradient(135deg,#3B9CFF,#0066B8)"></span><span class="d-name">iCloud Drive</span><span class="d-bar"><i></i></span><span class="d-chk">&#10003;</span></div></div><div class="n">03</div><div><h3>Indexes<br>iCloud Drive</h3><p>Your iCloud Drive files live where most tools never look. Everyfile indexes them too — so the file you saved on another Mac shows up here.</p></div></div>
+<div class="cell"><div class="demo"><span class="d-shield">&#128274;</span><span class="d-tag">0 trackers &middot; index 0600 &middot; on-device</span></div><div class="n">04</div><div><h3>On your Mac,<br>not the cloud</h3><p>The index never leaves your Mac and is stored private to your account. No account, no telemetry — one-time purchase, free updates within the major version.</p></div></div>
+</div></div></section>
+
+<section class="cmp"><div class="cmp-wrap"><div class="sec-label">// How it compares</div>
+<table><thead><tr><th></th><th class="us">Everyfile</th><th>HoudahSpot</th><th>Find Any File</th><th>Spotlight</th></tr></thead><tbody>
+<tr><td>Own index, not Spotlight's</td><td class="us yes">&#10003;</td><td><span class="no">builds on Spotlight</span></td><td><span class="no">live scan, no index</span></td><td><span class="no">its own index</span></td></tr>
+<tr><td>Global hotkey panel</td><td class="us yes">⌘⇧Space</td><td><span class="no">app window</span></td><td><span class="no">&#10007;</span></td><td><span class="no">generic ⌘Space</span></td></tr>
+<tr><td>Instant results while typing</td><td class="us yes">0.3 ms</td><td><span class="no">~</span></td><td><span class="no">slow (walks FS)</span></td><td class="yes">&#10003;</td></tr>
+<tr><td>Finds what Spotlight misses</td><td class="us yes">&#10003;</td><td><span class="no">~ (inherits Spotlight)</span></td><td class="yes">&#10003;</td><td><span class="no">misses files</span></td></tr>
+<tr><td>Indexes iCloud Drive</td><td class="us yes">&#10003;</td><td><span class="no">~</span></td><td><span class="no">~</span></td><td><span class="no">~</span></td></tr>
+<tr><td>One-time purchase</td><td class="us yes">$19.99</td><td><span class="no">$34</span></td><td class="yes">$8</td><td class="yes">free</td></tr>
+<tr><td>On-device, zero telemetry</td><td class="us yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+</tbody></table></div></section>
 <section class="price" id="buy">
   <div class="sec-label" style="text-align:center">// One price. Forever.</div>
   <div class="big">EVERYFILE <span class="amt">$19.99</span></div>
@@ -111,6 +218,18 @@ footer a{color:var(--muted);text-decoration:none}
   <button class="btn primary" onclick="openCheckout()">Buy Everyfile →</button>
 </section>
 
+<section class="faq"><div class="faq-wrap"><div class="sec-label">// Questions</div>
+<details class="faq-item"><summary>Does it search by name or by content?</summary><p>By name. Everyfile is built to find any file by its name, instantly — the thing Spotlight is surprisingly bad at. It indexes file names (and paths), not the text inside documents. Content search is on the roadmap for a later version.</p></details>
+<details class="faq-item"><summary>Does it index iCloud Drive?</summary><p>Yes. iCloud Drive files live under a folder most search tools quietly skip, so files you saved on another Mac often go missing. Everyfile indexes them too, so they show up alongside everything else.</p></details>
+<details class="faq-item"><summary>How fast is it, really?</summary><p>Instant. On a real home folder of 809,043 files, the full index builds in about 23 seconds and queries return in a p95 of 0.3 ms — results appear faster than you can finish typing. The speed is the whole point.</p></details>
+<details class="faq-item"><summary>Will it slow down my Mac or hog CPU?</summary><p>No. The index is built once and kept fresh with a cheap periodic re-scan, and it refreshes when you open the panel if it's gone stale. When you're not searching, Everyfile sits idle at effectively 0% CPU.</p></details>
+<details class="faq-item"><summary>Is it a subscription?</summary><p>No. One-time purchase, yours forever. You get free updates within the same major version (all of 1.x). Major upgrades may be paid, and only if you choose to take them.</p></details>
+<details class="faq-item"><summary>How many Macs can I use it on?</summary><p>Up to 2 Macs you own, with a single license. Enter the key on each and you're set.</p></details>
+<details class="faq-item"><summary>What about my privacy?</summary><p>Everything runs on your Mac. The index — which includes your file names and paths — is stored private to your account (permissions 0600) and never leaves the device. No account, no sign-up, zero telemetry.</p></details>
+<details class="faq-item"><summary>Which macOS do I need?</summary><p>macOS 14 Sonoma or later, on both Apple Silicon and Intel Macs.</p></details>
+<details class="faq-item"><summary>Can I get a refund?</summary><p>Absolutely — a 14-day money-back guarantee, no questions asked. Payments are handled by Paddle; just reply to your receipt and we'll sort it out.</p></details>
+</div></section>
+<section class="more" style="padding:100px 56px;background:rgba(10,10,11,.95);border-top:1px solid var(--line)"><div style="max-width:1000px;margin:0 auto"><div class="sec-label">// More from Perfect Paradox</div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px"><a href="https://curtain.perfectparadox.co.uk" style="text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:12px;padding:28px 16px;border:1px solid var(--line);transition:.18s" onmouseover="this.style.background='rgba(255,255,255,.04)'" onmouseout="this.style.background='transparent'"><img src="icons/curtain.png" alt="Curtain" width="72" height="72" style="border-radius:16px"><div style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)">Curtain</div><div style="font-size:12px;color:var(--muted);text-align:center">Auto DND when you share</div></a><a href="https://evergreen.perfectparadox.co.uk" style="text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:12px;padding:28px 16px;border:1px solid var(--line);transition:.18s" onmouseover="this.style.background='rgba(255,255,255,.04)'" onmouseout="this.style.background='transparent'"><img src="icons/evergreen.png" alt="Evergreen" width="72" height="72" style="border-radius:16px"><div style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)">Evergreen</div><div style="font-size:12px;color:var(--muted);text-align:center">Every app up to date</div></a><a href="https://notebound.perfectparadox.co.uk" style="text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:12px;padding:28px 16px;border:1px solid var(--line);transition:.18s" onmouseover="this.style.background='rgba(255,255,255,.04)'" onmouseout="this.style.background='transparent'"><img src="icons/notebound.png" alt="Notebound" width="72" height="72" style="border-radius:16px"><div style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)">Notebound</div><div style="font-size:12px;color:var(--muted);text-align:center">Markdown to Apple Notes</div></a><a href="https://screenshelf.perfectparadox.co.uk" style="text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:12px;padding:28px 16px;border:1px solid var(--line);transition:.18s" onmouseover="this.style.background='rgba(255,255,255,.04)'" onmouseout="this.style.background='transparent'"><img src="icons/screenshelf.png" alt="Screenshelf" width="72" height="72" style="border-radius:16px"><div style="font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)">Screenshelf</div><div style="font-size:12px;color:var(--muted);text-align:center">Search inside screenshots</div></a></div></div></section>
 <footer>
   <div>© 2026 Perfect Paradox Ltd · NI739317</div>
   <div><a href="/legal/privacy.html">Privacy</a> · <a href="/legal/terms.html">Terms</a> · <a href="/legal/refund.html">Refund</a> · <a href="/legal/eula.html">EULA</a> · <a href="mailto:info@perfectparadox.co.uk">info@perfectparadox.co.uk</a></div>
@@ -133,5 +252,6 @@ footer a{color:var(--muted);text-decoration:none}
     }
   }
 </script>
+<script>(function(){var b=document.getElementById('stickybuy');addEventListener('scroll',function(){if(scrollY>700)b.classList.add('show');else b.classList.remove('show')})})();</script>
 </body>
 </html>
