@@ -3,6 +3,18 @@
     <channel>
         <title>Everyfile</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Sun, 14 Jun 2026 15:50:07 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.1.zip" length="7993358" type="application/octet-stream" sparkle:edSignature="zf8JXz0Ab0UsFbXg0NtWu9nwwf/dYlpRKB/dLZ0jB5U31GhBZaitvgHaqeGpxLNOb7gl8OjuA5Ftr6BJg4+KAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile2-1.delta" sparkle:deltaFrom="1" length="95330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="crJVvNAqVLWEs8jeo1xq44X/LClRNMbO7oKNK7kILnKozzm9O9BCee3T0W7/Nas1ujT7RcGJAWy3jqEZ4LVxAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sat, 13 Jun 2026 07:21:38 +0100</pubDate>
             <sparkle:version>1</sparkle:version>
