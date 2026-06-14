@@ -3,6 +3,19 @@
     <channel>
         <title>Everyfile</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Sun, 14 Jun 2026 17:02:33 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.2.zip" length="8043571" type="application/octet-stream" sparkle:edSignature="isp2h5I3bxOpBV5akW6/YOfxpvHrNZ9G6I19lT13VLSpz6hYbwznWxoJEpqkdr4ipVoGN01shAwRhBcesAmNCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile3-2.delta" sparkle:deltaFrom="2" length="134290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZouZKBfZWdwBbTdBqOqINgYGRInovCE3WZOmi3LRFjRM9ozqPAmXAZaIbWm9RzylsGNjvogl5ZfVsB9kgJVeAQ=="/>
+                <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile3-1.delta" sparkle:deltaFrom="1" length="158262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VefzaFC13qFpzhxGxx1JqChmb4utSKYDY4o21YQlkq8lTLyqzIPuIJj+P+YsIul+9DPTlDYN8btADO57FP1bAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Sun, 14 Jun 2026 15:50:07 +0100</pubDate>
             <sparkle:version>2</sparkle:version>
