@@ -4,24 +4,12 @@
         <title>Everyfile</title>
         <item>
             <title>0.1.4</title>
-            <pubDate>Sun, 21 Jun 2026 20:59:29 +0100</pubDate>
-            <sparkle:version>4</sparkle:version>
+            <pubDate>Sun, 21 Jun 2026 23:46:33 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.4.zip" length="8043798" type="application/octet-stream" sparkle:edSignature="O8WsghzkRLsn65/2lmxQJ7X1OdMmL3cMgOgdgi31UXSAdM+YWgv/G5pffX0l1muCobU+i8ExdOL2cWBPR6vpAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile4-3.delta" sparkle:deltaFrom="3" length="47262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="reEaGhB35Z7HmtPpn4g27PIz5SIoK+ySLr8v9HGTBvM92tn+UD7zDR5Xe/hUwT4kVJQd7cJ1cX1ui5edEnKbBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.3</title>
-            <pubDate>Thu, 18 Jun 2026 06:45:46 +0100</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.3.zip" length="8044224" type="application/octet-stream" sparkle:edSignature="7Qxv24tRKqOfv5so8bttzyIsPRiR+8+IZDUTjdKGf/vseJmYPWFAsbte7foh1+sfpNCGlyjtGrsqEPMHVE6MAQ=="/>
+            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.4.zip" length="8073303" type="application/octet-stream" sparkle:edSignature="+DGMh5spqQWbNF1CsjrWmPz4/WXXNESVMCV681/HRUcliqhj1aq4V83mIs43gCGkvjGMV014Y3v0sDWvWE73BQ=="/>
         </item>
     </channel>
 </rss>
