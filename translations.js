@@ -25,7 +25,18 @@ window.I18N = {
 
   /* ===================================================================== EN */
   en: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// What's new",
+    "news.latest": "Latest",
+    "news.014.1": "Everyfile now speaks 8 languages, following your Mac's language automatically.",
+    "news.014.2": "Refined search panel and a faster, steadier index.",
+    "news.013.1": "Indexing now waits for disk access before it starts, so it never spams you with permission prompts.",
+    "news.013.2": "Fixed the selection jumping around and a stale index right after launch, plus a search-input security hardening.",
+    "news.012.1": "Automatic indexing watches your folders and picks up new files in real time, with a daily rescan.",
+    "news.012.2": "Quick Look with Space, power operators (kind/date/size), drag results straight out, recents on launch, and search that never freezes the window.",
+    "news.011.1": "Full Disk Access onboarding, a real 14-day trial, search by file extension and the option to exclude app bundles.",
+    "news.011.2": "Crash and corruption recovery, including a fix for crashes on files with non-Latin names.",
+    "news.010.1": "Initial release: instant search across every file on your Mac, by name.",
     "hero.langs": "8 languages",
     "marquee.5": "8 LANGUAGES",
     "langs.label": "// Speaks your language",
@@ -172,7 +183,18 @@ window.I18N = {
 
   /* ===================================================================== ES */
   es: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// Novedades",
+    "news.latest": "Última",
+    "news.014.1": "Everyfile ya habla 8 idiomas y sigue automáticamente el idioma de tu Mac.",
+    "news.014.2": "Panel de búsqueda refinado y un índice más rápido y estable.",
+    "news.013.1": "La indexación ahora espera al acceso al disco antes de empezar, así que nunca te llena de avisos de permisos.",
+    "news.013.2": "Corregidos los saltos de selección y un índice desactualizado justo al abrir, además de un refuerzo de seguridad en el campo de búsqueda.",
+    "news.012.1": "La indexación automática vigila tus carpetas y detecta los archivos nuevos en tiempo real, con un reescaneo diario.",
+    "news.012.2": "Vista Rápida con Espacio, operadores avanzados (tipo/fecha/tamaño), arrastra los resultados fuera, recientes al abrir y una búsqueda que nunca congela la ventana.",
+    "news.011.1": "Incorporación de Acceso a Todo el Disco, una prueba real de 14 días, búsqueda por extensión de archivo y la opción de excluir paquetes de apps.",
+    "news.011.2": "Recuperación ante fallos y corrupción, incluido un arreglo para fallos con archivos de nombres no latinos.",
+    "news.010.1": "Versión inicial: búsqueda instantánea por nombre en todos los archivos de tu Mac.",
     "hero.langs": "8 idiomas",
     "marquee.5": "8 IDIOMAS",
     "langs.label": "// Habla tu idioma",
@@ -319,7 +341,18 @@ window.I18N = {
 
   /* ===================================================================== FR */
   fr: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// Nouveautés",
+    "news.latest": "Récent",
+    "news.014.1": "Everyfile parle désormais 8 langues et suit automatiquement la langue de votre Mac.",
+    "news.014.2": "Panneau de recherche affiné et un index plus rapide et plus stable.",
+    "news.013.1": "L'indexation attend maintenant l'accès au disque avant de démarrer, pour ne jamais vous submerger de demandes d'autorisation.",
+    "news.013.2": "Correction des sauts de sélection et d'un index obsolète juste après le lancement, plus un renforcement de sécurité du champ de recherche.",
+    "news.012.1": "L'indexation automatique surveille vos dossiers et détecte les nouveaux fichiers en temps réel, avec un réexamen quotidien.",
+    "news.012.2": "Coup d'œil avec Espace, opérateurs avancés (type/date/taille), glissez les résultats vers l'extérieur, récents au lancement et une recherche qui ne fige jamais la fenêtre.",
+    "news.011.1": "Intégration de l'Accès complet au disque, un véritable essai de 14 jours, recherche par extension de fichier et l'option d'exclure les bundles d'apps.",
+    "news.011.2": "Récupération après plantage et corruption, dont un correctif pour les plantages sur des fichiers aux noms non latins.",
+    "news.010.1": "Version initiale : recherche instantanée par nom dans tous les fichiers de votre Mac.",
     "hero.langs": "8 langues",
     "marquee.5": "8 LANGUES",
     "langs.label": "// Parle votre langue",
@@ -466,7 +499,18 @@ window.I18N = {
 
   /* ===================================================================== DE */
   de: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// Neuigkeiten",
+    "news.latest": "Neu",
+    "news.014.1": "Everyfile spricht jetzt 8 Sprachen und folgt automatisch der Sprache deines Macs.",
+    "news.014.2": "Verfeinertes Suchfeld und ein schnellerer, stabilerer Index.",
+    "news.013.1": "Die Indizierung wartet jetzt auf den Festplattenzugriff, bevor sie startet, und überschüttet dich nie mit Berechtigungsabfragen.",
+    "news.013.2": "Springende Auswahl und ein veralteter Index direkt nach dem Start behoben, plus eine Sicherheitshärtung des Suchfelds.",
+    "news.012.1": "Die automatische Indizierung überwacht deine Ordner und erfasst neue Dateien in Echtzeit, mit täglichem Neuscan.",
+    "news.012.2": "Übersicht mit Leertaste, Profi-Operatoren (Art/Datum/Größe), Ergebnisse direkt herausziehen, Zuletzt beim Start und eine Suche, die das Fenster nie einfriert.",
+    "news.011.1": "Onboarding für vollen Festplattenzugriff, eine echte 14-tägige Testphase, Suche nach Dateiendung und die Option, App-Bundles auszuschließen.",
+    "news.011.2": "Wiederherstellung nach Abstürzen und Beschädigungen, samt einer Korrektur für Abstürze bei Dateien mit nicht-lateinischen Namen.",
+    "news.010.1": "Erstveröffentlichung: sofortige Suche über jede Datei auf deinem Mac, nach Name.",
     "hero.langs": "8 Sprachen",
     "marquee.5": "8 SPRACHEN",
     "langs.label": "// Spricht deine Sprache",
@@ -613,7 +657,18 @@ window.I18N = {
 
   /* ===================================================================== IT */
   it: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// Novità",
+    "news.latest": "Ultima",
+    "news.014.1": "Everyfile ora parla 8 lingue e segue automaticamente la lingua del tuo Mac.",
+    "news.014.2": "Pannello di ricerca rifinito e un indice più veloce e più stabile.",
+    "news.013.1": "L'indicizzazione ora attende l'accesso al disco prima di partire, così non ti riempie mai di richieste di permessi.",
+    "news.013.2": "Corretti i salti della selezione e un indice non aggiornato subito dopo l'avvio, oltre a un rafforzamento di sicurezza del campo di ricerca.",
+    "news.012.1": "L'indicizzazione automatica controlla le tue cartelle e rileva i nuovi file in tempo reale, con una riscansione giornaliera.",
+    "news.012.2": "Occhiata con Spazio, operatori avanzati (tipo/data/dimensione), trascina fuori i risultati, recenti all'avvio e una ricerca che non blocca mai la finestra.",
+    "news.011.1": "Procedura per l'Accesso completo al disco, una vera prova di 14 giorni, ricerca per estensione del file e l'opzione di escludere i bundle delle app.",
+    "news.011.2": "Recupero da arresti anomali e corruzione, incluso un fix per i crash su file con nomi non latini.",
+    "news.010.1": "Versione iniziale: ricerca istantanea per nome tra tutti i file del tuo Mac.",
     "hero.langs": "8 lingue",
     "marquee.5": "8 LINGUE",
     "langs.label": "// Parla la tua lingua",
@@ -760,7 +815,18 @@ window.I18N = {
 
   /* ===================================================================== PT */
   pt: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// Novidades",
+    "news.latest": "Recente",
+    "news.014.1": "O Everyfile já fala 8 idiomas e segue automaticamente o idioma do seu Mac.",
+    "news.014.2": "Painel de pesquisa aprimorado e um índice mais rápido e estável.",
+    "news.013.1": "A indexação agora espera pelo acesso ao disco antes de começar, por isso nunca o enche de pedidos de permissão.",
+    "news.013.2": "Corrigidos os saltos da seleção e um índice desatualizado logo após o arranque, além de um reforço de segurança no campo de pesquisa.",
+    "news.012.1": "A indexação automática vigia as suas pastas e deteta os ficheiros novos em tempo real, com uma reverificação diária.",
+    "news.012.2": "Vista Rápida com Espaço, operadores avançados (tipo/data/tamanho), arraste os resultados para fora, recentes ao arrancar e uma pesquisa que nunca congela a janela.",
+    "news.011.1": "Configuração de Acesso Total ao Disco, um período de teste real de 14 dias, pesquisa por extensão de ficheiro e a opção de excluir pacotes de apps.",
+    "news.011.2": "Recuperação de falhas e corrupção, incluindo uma correção para falhas em ficheiros com nomes não latinos.",
+    "news.010.1": "Versão inicial: pesquisa instantânea por nome em todos os ficheiros do seu Mac.",
     "hero.langs": "8 idiomas",
     "marquee.5": "8 IDIOMAS",
     "langs.label": "// Fala a sua língua",
@@ -907,7 +973,18 @@ window.I18N = {
 
   /* ===================================================================== JA */
   ja: {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// 新着情報",
+    "news.latest": "最新",
+    "news.014.1": "Everyfile が8言語に対応し、Mac の言語に自動で合わせるようになりました。",
+    "news.014.2": "検索パネルを洗練し、インデックスをより速く安定させました。",
+    "news.013.1": "インデックス作成はディスクへのアクセスを待ってから開始するようになり、許可のダイアログを連発しなくなりました。",
+    "news.013.2": "選択がずれる問題と起動直後の古いインデックスを修正し、検索入力のセキュリティも強化しました。",
+    "news.012.1": "自動インデックス作成がフォルダを監視し、新しいファイルをリアルタイムで取り込みます。毎日の再スキャンつき。",
+    "news.012.2": "スペースキーでクイックルック、強力な演算子（種類/日付/サイズ）、結果のドラッグアウト、起動時の最近の項目、ウィンドウを固まらせない検索。",
+    "news.011.1": "フルディスクアクセスのオンボーディング、本物の14日間トライアル、拡張子での検索、アプリバンドルを除外するオプション。",
+    "news.011.2": "クラッシュと破損からの復旧。非ラテン文字の名前のファイルでのクラッシュ修正を含みます。",
+    "news.010.1": "初回リリース：Mac 上のあらゆるファイルを名前で瞬時に検索。",
     "hero.langs": "8言語",
     "marquee.5": "8言語対応",
     "langs.label": "// あなたの言語で",
@@ -1054,7 +1131,18 @@ window.I18N = {
 
   /* ===================================================================== zh-Hans */
   "zh-Hans": {
-    /* idiomas + feedback */
+    /* idiomas + feedback + changelog (v0.1.4) */
+    "news.label": "// 新功能",
+    "news.latest": "最新",
+    "news.014.1": "Everyfile 现已支持 8 种语言，并自动跟随你的 Mac 语言。",
+    "news.014.2": "优化了搜索面板，索引更快、更稳定。",
+    "news.013.1": "索引现在会先等待磁盘访问权限再开始，因此不会再向你弹出大量权限请求。",
+    "news.013.2": "修复了选择跳动以及启动后索引过时的问题，并加强了搜索输入的安全性。",
+    "news.012.1": "自动索引会监视你的文件夹并实时收录新文件，每天还会重新扫描一次。",
+    "news.012.2": "用空格键快速查看、强大的运算符（类型/日期/大小）、直接拖出结果、启动时显示最近项目，以及永不卡住窗口的搜索。",
+    "news.011.1": "完全磁盘访问引导、真正的 14 天试用、按文件扩展名搜索，以及排除应用程序包的选项。",
+    "news.011.2": "崩溃与损坏恢复，包括修复了名称为非拉丁字符的文件导致的崩溃。",
+    "news.010.1": "首个版本：在你的 Mac 上按名称即时搜索每一个文件。",
     "hero.langs": "8 种语言",
     "marquee.5": "8 种语言",
     "langs.label": "// 说你的语言",
