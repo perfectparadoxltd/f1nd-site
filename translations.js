@@ -25,6 +25,28 @@ window.I18N = {
 
   /* ===================================================================== EN */
   en: {
+    /* idiomas + feedback */
+    "hero.langs": "8 languages",
+    "marquee.5": "8 LANGUAGES",
+    "langs.label": "// Speaks your language",
+    "langs.body": "Everyfile's whole interface is localized into 8 languages — it follows your Mac and speaks your language out of the box. No setup, nothing to switch on.",
+    "fb.label": "// Feedback",
+    "fb.title": "Help shape<br>Everyfile",
+    "fb.lead": "Found a bug, or wish it did one more thing? Tell us — every message goes straight to the people who build Everyfile. No account, no tracking.",
+    "fb.type.idea": "Idea",
+    "fb.type.bug": "Bug",
+    "fb.type.praise": "Praise",
+    "fb.type.other": "Other",
+    "fb.msg.label": "Your message",
+    "fb.msg.ph": "What's on your mind?",
+    "fb.email.label": "Email (optional — so we can reply)",
+    "fb.email.ph": "you@example.com",
+    "fb.send": "Send feedback →",
+    "fb.note": "We read everything. Honest feedback shapes the next update.",
+    "fb.result.ok": "Thank you — your feedback is on its way to the team.",
+    "fb.result.err": "Could not send right now. You can email us at ",
+    "fb.result.empty": "Please write a short message first.",
+    "fb.sending": "Sending…",
     "meta.title": "Everyfile — Find any file instantly, with QuickLook, power filters & live indexing",
     "meta.description": "Find any file by name instantly — a fast local index, QuickLook with Space, power operators. Like Everything, but native to your Mac. One-time $19.99, on-device.",
 
@@ -150,6 +172,28 @@ window.I18N = {
 
   /* ===================================================================== ES */
   es: {
+    /* idiomas + feedback */
+    "hero.langs": "8 idiomas",
+    "marquee.5": "8 IDIOMAS",
+    "langs.label": "// Habla tu idioma",
+    "langs.body": "Toda la interfaz de Everyfile está traducida a 8 idiomas: sigue el idioma de tu Mac y habla el tuyo desde el primer momento. Sin configurar nada.",
+    "fb.label": "// Tu opinión",
+    "fb.title": "Ayuda a mejorar<br>Everyfile",
+    "fb.lead": "¿Has encontrado un fallo o te gustaría que hiciera algo más? Cuéntanoslo: cada mensaje llega directo a quienes desarrollan Everyfile. Sin cuenta y sin rastreo.",
+    "fb.type.idea": "Idea",
+    "fb.type.bug": "Fallo",
+    "fb.type.praise": "Elogio",
+    "fb.type.other": "Otro",
+    "fb.msg.label": "Tu mensaje",
+    "fb.msg.ph": "¿Qué tienes en mente?",
+    "fb.email.label": "Correo (opcional, para poder responderte)",
+    "fb.email.ph": "tu@ejemplo.com",
+    "fb.send": "Enviar comentario →",
+    "fb.note": "Lo leemos todo. Tu opinión sincera marca la próxima actualización.",
+    "fb.result.ok": "Gracias: tu comentario va de camino al equipo.",
+    "fb.result.err": "No se ha podido enviar ahora mismo. Puedes escribirnos a ",
+    "fb.result.empty": "Escribe un mensaje breve primero, por favor.",
+    "fb.sending": "Enviando…",
     "meta.title": "Everyfile — Encuentra cualquier archivo al instante, con QuickLook, filtros avanzados e indexación en vivo",
     "meta.description": "Encuentra cualquier archivo por su nombre al instante — un índice local rápido, QuickLook con la barra espaciadora y operadores avanzados. Como Everything, pero nativo de tu Mac. Pago único de $19.99, en tu dispositivo.",
 
@@ -275,6 +319,28 @@ window.I18N = {
 
   /* ===================================================================== FR */
   fr: {
+    /* idiomas + feedback */
+    "hero.langs": "8 langues",
+    "marquee.5": "8 LANGUES",
+    "langs.label": "// Parle votre langue",
+    "langs.body": "Toute l'interface d'Everyfile est traduite en 8 langues : elle suit la langue de votre Mac et parle la vôtre dès le départ. Aucune configuration.",
+    "fb.label": "// Votre avis",
+    "fb.title": "Aidez à façonner<br>Everyfile",
+    "fb.lead": "Un bug, ou une fonction qui vous manque ? Dites-le-nous — chaque message arrive directement à l'équipe qui développe Everyfile. Sans compte, sans pistage.",
+    "fb.type.idea": "Idée",
+    "fb.type.bug": "Bug",
+    "fb.type.praise": "Compliment",
+    "fb.type.other": "Autre",
+    "fb.msg.label": "Votre message",
+    "fb.msg.ph": "Qu'avez-vous en tête ?",
+    "fb.email.label": "E-mail (facultatif — pour vous répondre)",
+    "fb.email.ph": "vous@exemple.com",
+    "fb.send": "Envoyer →",
+    "fb.note": "Nous lisons tout. Vos retours sincères façonnent la prochaine mise à jour.",
+    "fb.result.ok": "Merci — votre message est en route vers l'équipe.",
+    "fb.result.err": "Envoi impossible pour le moment. Vous pouvez nous écrire à ",
+    "fb.result.empty": "Veuillez d'abord écrire un court message.",
+    "fb.sending": "Envoi…",
     "meta.title": "Everyfile — Trouvez n'importe quel fichier à l'instant, avec QuickLook, filtres avancés et indexation en direct",
     "meta.description": "Trouvez n'importe quel fichier par son nom à l'instant — un index local rapide, QuickLook avec la barre d'espace et des opérateurs avancés. Comme Everything, mais natif à votre Mac. Achat unique de 19,99 $, sur l'appareil.",
 
@@ -400,6 +466,28 @@ window.I18N = {
 
   /* ===================================================================== DE */
   de: {
+    /* idiomas + feedback */
+    "hero.langs": "8 Sprachen",
+    "marquee.5": "8 SPRACHEN",
+    "langs.label": "// Spricht deine Sprache",
+    "langs.body": "Die gesamte Oberfläche von Everyfile ist in 8 Sprachen übersetzt – sie folgt der Sprache deines Macs und spricht von Anfang an deine. Ohne Einrichtung.",
+    "fb.label": "// Feedback",
+    "fb.title": "Gestalte<br>Everyfile mit",
+    "fb.lead": "Einen Fehler gefunden oder fehlt dir eine Funktion? Sag es uns — jede Nachricht geht direkt an das Team hinter Everyfile. Kein Konto, kein Tracking.",
+    "fb.type.idea": "Idee",
+    "fb.type.bug": "Fehler",
+    "fb.type.praise": "Lob",
+    "fb.type.other": "Sonstiges",
+    "fb.msg.label": "Deine Nachricht",
+    "fb.msg.ph": "Was beschäftigt dich?",
+    "fb.email.label": "E-Mail (optional — für unsere Antwort)",
+    "fb.email.ph": "du@beispiel.com",
+    "fb.send": "Feedback senden →",
+    "fb.note": "Wir lesen alles. Ehrliches Feedback prägt das nächste Update.",
+    "fb.result.ok": "Danke — dein Feedback ist auf dem Weg zum Team.",
+    "fb.result.err": "Senden gerade nicht möglich. Du kannst uns schreiben an ",
+    "fb.result.empty": "Bitte schreibe zuerst eine kurze Nachricht.",
+    "fb.sending": "Senden…",
     "meta.title": "Everyfile — Finde jede Datei sofort, mit QuickLook, Power-Filtern und Live-Indizierung",
     "meta.description": "Finde jede Datei sofort über ihren Namen — ein schneller lokaler Index, QuickLook mit der Leertaste, Power-Operatoren. Wie Everything, aber nativ für deinen Mac. Einmalig 19,99 $, auf dem Gerät.",
 
@@ -525,6 +613,28 @@ window.I18N = {
 
   /* ===================================================================== IT */
   it: {
+    /* idiomas + feedback */
+    "hero.langs": "8 lingue",
+    "marquee.5": "8 LINGUE",
+    "langs.label": "// Parla la tua lingua",
+    "langs.body": "L'intera interfaccia di Everyfile è tradotta in 8 lingue: segue la lingua del tuo Mac e parla la tua fin da subito. Senza configurare nulla.",
+    "fb.label": "// Feedback",
+    "fb.title": "Aiuta a migliorare<br>Everyfile",
+    "fb.lead": "Hai trovato un bug o vorresti una funzione in più? Dillo a noi: ogni messaggio arriva direttamente a chi sviluppa Everyfile. Nessun account, nessun tracciamento.",
+    "fb.type.idea": "Idea",
+    "fb.type.bug": "Bug",
+    "fb.type.praise": "Elogio",
+    "fb.type.other": "Altro",
+    "fb.msg.label": "Il tuo messaggio",
+    "fb.msg.ph": "A cosa stai pensando?",
+    "fb.email.label": "Email (facoltativa — per risponderti)",
+    "fb.email.ph": "tu@esempio.com",
+    "fb.send": "Invia feedback →",
+    "fb.note": "Leggiamo tutto. Un feedback sincero plasma il prossimo aggiornamento.",
+    "fb.result.ok": "Grazie — il tuo feedback è in arrivo al team.",
+    "fb.result.err": "Impossibile inviare ora. Puoi scriverci a ",
+    "fb.result.empty": "Scrivi prima un breve messaggio.",
+    "fb.sending": "Invio…",
     "meta.title": "Everyfile — Trova qualsiasi file all'istante, con QuickLook, filtri avanzati e indicizzazione in tempo reale",
     "meta.description": "Trova qualsiasi file per nome all'istante — un indice locale veloce, QuickLook con la barra spaziatrice, operatori avanzati. Come Everything, ma nativo per il tuo Mac. Pagamento unico di 19,99 $, sul dispositivo.",
 
@@ -650,6 +760,28 @@ window.I18N = {
 
   /* ===================================================================== PT */
   pt: {
+    /* idiomas + feedback */
+    "hero.langs": "8 idiomas",
+    "marquee.5": "8 IDIOMAS",
+    "langs.label": "// Fala a sua língua",
+    "langs.body": "Toda a interface do Everyfile está traduzida em 8 idiomas: acompanha o idioma do seu Mac e fala o seu desde o início. Sem configurar nada.",
+    "fb.label": "// Feedback",
+    "fb.title": "Ajude a melhorar<br>o Everyfile",
+    "fb.lead": "Encontrou um erro ou gostaria de mais uma função? Diga-nos — cada mensagem vai direto para quem desenvolve o Everyfile. Sem conta, sem rastreio.",
+    "fb.type.idea": "Ideia",
+    "fb.type.bug": "Erro",
+    "fb.type.praise": "Elogio",
+    "fb.type.other": "Outro",
+    "fb.msg.label": "A sua mensagem",
+    "fb.msg.ph": "O que tem em mente?",
+    "fb.email.label": "E-mail (opcional — para podermos responder)",
+    "fb.email.ph": "voce@exemplo.com",
+    "fb.send": "Enviar feedback →",
+    "fb.note": "Lemos tudo. Feedback sincero molda a próxima atualização.",
+    "fb.result.ok": "Obrigado — o seu feedback está a caminho da equipa.",
+    "fb.result.err": "Não foi possível enviar agora. Pode escrever-nos para ",
+    "fb.result.empty": "Escreva primeiro uma mensagem breve.",
+    "fb.sending": "A enviar…",
     "meta.title": "Everyfile — Encontre qualquer ficheiro num instante, com QuickLook, filtros avançados e indexação ao vivo",
     "meta.description": "Encontre qualquer ficheiro pelo nome num instante — um índice local rápido, QuickLook com a barra de espaço, operadores avançados. Como o Everything, mas nativo do seu Mac. Pagamento único de 19,99 $, no dispositivo.",
 
@@ -775,6 +907,28 @@ window.I18N = {
 
   /* ===================================================================== JA */
   ja: {
+    /* idiomas + feedback */
+    "hero.langs": "8言語",
+    "marquee.5": "8言語対応",
+    "langs.label": "// あなたの言語で",
+    "langs.body": "Everyfile のインターフェースは 8 言語に対応。Mac の言語に合わせて、最初からあなたの言語で表示されます。設定は不要です。",
+    "fb.label": "// フィードバック",
+    "fb.title": "Everyfile を<br>育てよう",
+    "fb.lead": "バグを見つけた、こんな機能がほしい——ぜひ教えてください。メッセージは Everyfile の開発チームに直接届きます。アカウント不要、追跡なし。",
+    "fb.type.idea": "アイデア",
+    "fb.type.bug": "バグ",
+    "fb.type.praise": "ほめ言葉",
+    "fb.type.other": "その他",
+    "fb.msg.label": "メッセージ",
+    "fb.msg.ph": "ご意見をどうぞ",
+    "fb.email.label": "メール（任意・返信用）",
+    "fb.email.ph": "you@example.com",
+    "fb.send": "送信する →",
+    "fb.note": "すべて拝見します。率直なご意見が次のアップデートをつくります。",
+    "fb.result.ok": "ありがとうございます。フィードバックをチームにお送りしました。",
+    "fb.result.err": "現在送信できませんでした。こちらまでメールでお知らせください: ",
+    "fb.result.empty": "まず短いメッセージを入力してください。",
+    "fb.sending": "送信中…",
     "meta.title": "Everyfile — QuickLook、パワーフィルター、ライブインデックスで、どんなファイルも瞬時に見つける",
     "meta.description": "名前でどんなファイルも瞬時に検索 — 高速なローカルインデックス、スペースキーでQuickLook、パワー演算子。Everythingのように、でもMacにネイティブ。買い切り$19.99、デバイス上で処理。",
 
@@ -900,6 +1054,28 @@ window.I18N = {
 
   /* ===================================================================== zh-Hans */
   "zh-Hans": {
+    /* idiomas + feedback */
+    "hero.langs": "8 种语言",
+    "marquee.5": "8 种语言",
+    "langs.label": "// 说你的语言",
+    "langs.body": "Everyfile 的整个界面已本地化为 8 种语言：跟随你的 Mac 语言，开箱即用地说你的语言。无需设置。",
+    "fb.label": "// 反馈",
+    "fb.title": "帮助打磨<br>Everyfile",
+    "fb.lead": "发现了问题，或希望增加某个功能？告诉我们——每条留言都会直达 Everyfile 的开发团队。无需账户，绝不追踪。",
+    "fb.type.idea": "建议",
+    "fb.type.bug": "问题",
+    "fb.type.praise": "称赞",
+    "fb.type.other": "其他",
+    "fb.msg.label": "你的留言",
+    "fb.msg.ph": "你在想什么？",
+    "fb.email.label": "邮箱（可选——以便回复你）",
+    "fb.email.ph": "you@example.com",
+    "fb.send": "发送反馈 →",
+    "fb.note": "我们会认真阅读每一条。真诚的反馈塑造下一次更新。",
+    "fb.result.ok": "谢谢——你的反馈正在发往团队。",
+    "fb.result.err": "暂时无法发送。你可以发邮件给我们： ",
+    "fb.result.empty": "请先写一条简短的留言。",
+    "fb.sending": "发送中…",
     "meta.title": "Everyfile — 即时找到任何文件，配备 QuickLook、强力筛选与实时索引",
     "meta.description": "按名称即时搜索任何文件 — 快速的本地索引、用空格键 QuickLook、强力运算符。像 Everything 一样，但是 Mac 原生。一次性 $19.99，在设备本地处理。",
 
