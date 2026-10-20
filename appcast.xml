@@ -3,25 +3,13 @@
     <channel>
         <title>Everyfile</title>
         <item>
-            <title>0.1.5</title>
-            <pubDate>Sat, 27 Jun 2026 16:57:10 +0100</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <title>0.1.6</title>
+            <pubDate>Tue, 20 Oct 2026 22:14:53 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.5.zip" length="7242321" type="application/octet-stream" sparkle:edSignature="F1Ej9N/4RdZwuj6CYuu/QKj0ez1X9y8VDovtV7z8S2NIucUiVMDSnS9g59+EIJsRxEytsTzZzFFjx8CoW7sBCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile6-5.delta" sparkle:deltaFrom="5" length="5477610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EQBMYE+n5PNUZOCzpJojAFvG0p0sporxQZUAYWuPYbZNf/yfaP/RAuYagpxRtDChVBtwBz52V11/1Aoh6J/BBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.4</title>
-            <pubDate>Sun, 21 Jun 2026 23:46:33 +0100</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.4.zip" length="8073303" type="application/octet-stream" sparkle:edSignature="+DGMh5spqQWbNF1CsjrWmPz4/WXXNESVMCV681/HRUcliqhj1aq4V83mIs43gCGkvjGMV014Y3v0sDWvWE73BQ=="/>
+            <enclosure url="https://everyfile.perfectparadox.co.uk/Everyfile-0.1.6.zip" length="7242916" type="application/octet-stream" sparkle:edSignature="4jVJPGcdB14Iger6XU3c+M0juDyHyEPl3YzEtCSkmRYRrAhsw88sXXsWJ98jWfHX1TM9e4YEwaLyvucYyMvkCA=="/>
         </item>
     </channel>
 </rss>
