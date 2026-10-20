@@ -25,6 +25,7 @@ window.I18N = {
 
   /* ===================================================================== EN */
   en: {
+    "news.016.1": "Security update: the built-in updater moves to Sparkle 2.9.6, which fixes issues published by its developers. No other changes.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// What's new",
     "news.latest": "Latest",
@@ -184,6 +185,7 @@ window.I18N = {
 
   /* ===================================================================== ES */
   es: {
+    "news.016.1": "Actualización de seguridad: el actualizador integrado pasa a Sparkle 2.9.6, que corrige fallos publicados por sus desarrolladores. Sin más cambios.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// Novedades",
     "news.latest": "Última",
@@ -343,6 +345,7 @@ window.I18N = {
 
   /* ===================================================================== FR */
   fr: {
+    "news.016.1": "Mise à jour de sécurité : le système de mise à jour intégré passe à Sparkle 2.9.6, qui corrige des problèmes publiés par ses développeurs. Aucun autre changement.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// Nouveautés",
     "news.latest": "Récent",
@@ -502,6 +505,7 @@ window.I18N = {
 
   /* ===================================================================== DE */
   de: {
+    "news.016.1": "Sicherheitsupdate: Die integrierte Update-Funktion wechselt auf Sparkle 2.9.6, das von den Entwicklern veröffentlichte Probleme behebt. Keine weiteren Änderungen.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// Neuigkeiten",
     "news.latest": "Neu",
@@ -661,6 +665,7 @@ window.I18N = {
 
   /* ===================================================================== IT */
   it: {
+    "news.016.1": "Aggiornamento di sicurezza: il sistema di aggiornamento integrato passa a Sparkle 2.9.6, che corregge problemi pubblicati dai suoi sviluppatori. Nessun'altra modifica.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// Novità",
     "news.latest": "Ultima",
@@ -820,6 +825,7 @@ window.I18N = {
 
   /* ===================================================================== PT */
   pt: {
+    "news.016.1": "Atualização de segurança: o atualizador integrado passa para o Sparkle 2.9.6, que corrige problemas publicados pelos seus programadores. Sem outras alterações.",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// Novidades",
     "news.latest": "Recente",
@@ -979,6 +985,7 @@ window.I18N = {
 
   /* ===================================================================== JA */
   ja: {
+    "news.016.1": "セキュリティアップデート：内蔵のアップデーターを Sparkle 2.9.6 に更新しました。開発元が公表した問題が修正されています。その他の変更はありません。",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// 新着情報",
     "news.latest": "最新",
@@ -1138,6 +1145,7 @@ window.I18N = {
 
   /* ===================================================================== zh-Hans */
   "zh-Hans": {
+    "news.016.1": "安全更新：内置更新程序升级到 Sparkle 2.9.6，修复了其开发者公布的问题。无其他改动。",
     /* idiomas + feedback + changelog (v0.1.4) */
     "news.label": "// 新功能",
     "news.latest": "最新",
